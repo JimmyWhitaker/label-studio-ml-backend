@@ -19,7 +19,7 @@ if not API_KEY:
     print('=> WARNING! API_KEY is not set')
 
 
-class OpenAIPrecitor(LabelStudioMLBase):
+class OpenAIPredictor(LabelStudioMLBase):
 
     def __init__(self, **kwargs):
         # don't forget to initialize base class...
